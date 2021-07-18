@@ -3,6 +3,7 @@ import Button from './component/Button';
 import ComplexCounter from './component/ComplexCounter';
 import ComponentA from './component/ComponentA';
 import Counter from './component/Counter';
+import LayoutComponentOne from './component/LayoutComponentOne';
 import Form from './component/Form';
 import GetPost from './component/GetPost';
 import GetPost2 from './component/GetPost2';
@@ -10,6 +11,7 @@ import MyComponent from './component/MyComponent';
 import ShowCount from './component/ShowCount';
 import Title from './component/Title';
 import Todo from './component/Todo';
+import LayoutComponentTwo from './component/LayOutComponentTwo';
 
 export const counterContext=React.createContext();
 const initialState=0;
@@ -49,7 +51,7 @@ export default function App() {
   return (
     <div >
      
-      <Todo></Todo>
+      {/* <Todo></Todo>
       <MyComponent></MyComponent>
 
 
@@ -77,7 +79,11 @@ export default function App() {
       <hr /><hr />
       <GetPost></GetPost>
       <hr /><hr />
-      <GetPost2></GetPost2>
+      <GetPost2></GetPost2> */}
+
+
+      <LayoutComponentOne></LayoutComponentOne>
+      <LayoutComponentTwo></LayoutComponentTwo>
      
 
     </div>
